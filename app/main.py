@@ -71,4 +71,4 @@ def submit():
     return render_template('success.html', name=name, image_path=image_path)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    app.run(host="0.0.0.0", port=5001)
